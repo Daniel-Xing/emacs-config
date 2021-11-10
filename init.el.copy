@@ -1,0 +1,35 @@
+;; init.el
+
+;; package config
+(setq package-check-signature nil)	; for the error about 'Failed to verify signature archive-contents.sig'
+
+(require 'package)
+(setq use-package-always-ensure t)
+(package-initialize)
+
+;;自动补全括号
+(electric-pair-mode t)
+
+;;隐藏侧边栏工具栏
+;;(tool-bar-mode 0)
+;;(menu-bar-mode 0)
+(scroll-bar-mode 0)
+;; 主题
+;;(load-theme 'zenburn t)
+
+;; 把目录lisp/添加到搜索路径中去
+(add-to-list
+    'load-path 
+    (expand-file-name "lisp" user-emacs-directory))
+;; 下面每一个被require的feature都对应一个lisp/目录下的同名
+;; elisp文件，例如init-utils.el、init-elpa.el
+;;(require 'init-utils)   ;; 为加载初始化文件提供一些自定义的函数和宏
+(require 'init-elpa)    ;; 加载ELPA，并定义了require-package函数
+;;(require 'init-auto-complete)   ;; 自动补全
+(require 'init-yasnippet)
+;;(require 'init-ac-source)
+(require 'init-helm)
+;;(require 'init-editing-utils)  ;; 一些顺手的小工具
+;;(require 'init-markdown)
+;;(require 'init-auctex)
+(provide 'init)

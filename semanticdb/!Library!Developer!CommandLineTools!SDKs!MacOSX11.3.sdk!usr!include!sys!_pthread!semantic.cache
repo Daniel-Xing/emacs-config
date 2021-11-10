@@ -1,0 +1,221 @@
+;; Object semanticdb-project-database-file-4685edc8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4685edc8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-460cbbb2"
+      :major-mode c-mode
+      :tags 
+        '( ("_SYS__PTHREAD_TYPES_H_" variable (:constant-flag t) nil [1366 1388])
+            ("sys/cdefs.h" include (:system-flag t) nil [1390 1412])
+            ("__PTHREAD_SIZE__" variable (:constant-flag t) nil [1473 1489])
+            ("__PTHREAD_ATTR_SIZE__" variable (:constant-flag t) nil [1504 1525])
+            ("__PTHREAD_MUTEXATTR_SIZE__" variable (:constant-flag t) nil [1538 1564])
+            ("__PTHREAD_MUTEX_SIZE__" variable (:constant-flag t) nil [1575 1597])
+            ("__PTHREAD_CONDATTR_SIZE__" variable (:constant-flag t) nil [1610 1635])
+            ("__PTHREAD_COND_SIZE__" variable (:constant-flag t) nil [1646 1667])
+            ("__PTHREAD_ONCE_SIZE__" variable (:constant-flag t) nil [1680 1701])
+            ("__PTHREAD_RWLOCK_SIZE__" variable (:constant-flag t) nil [1713 1736])
+            ("__PTHREAD_RWLOCKATTR_SIZE__" variable (:constant-flag t) nil [1750 1777])
+            ("__darwin_pthread_handler_rec" type
+               (:members 
+                  ( ("__routine" function
+                       (:prototype-flag t
+                        :function-pointer t
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [2194 2201]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [2176 2202])
+                    ("__arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol classsubparts) [2223 2235])
+                    ("__next" variable
+                       (:pointer 1
+                        :type ("__darwin_pthread_handler_rec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [2259 2303]))                  
+                :type "struct")
+                nil [2137 2306])
+            ("_opaque_pthread_attr_t" type
+               (:members 
+                  ( ("__sig" variable (:type "long") (reparse-symbol classsubparts) [2341 2352])
+                    ("__opaque" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2354 2391]))                  
+                :type "struct")
+                nil [2308 2394])
+            ("_opaque_pthread_cond_t" type
+               (:members 
+                  ( ("__sig" variable (:type "long") (reparse-symbol classsubparts) [2429 2440])
+                    ("__opaque" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2442 2479]))                  
+                :type "struct")
+                nil [2396 2482])
+            ("_opaque_pthread_condattr_t" type
+               (:members 
+                  ( ("__sig" variable (:type "long") (reparse-symbol classsubparts) [2521 2532])
+                    ("__opaque" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2534 2575]))                  
+                :type "struct")
+                nil [2484 2578])
+            ("_opaque_pthread_mutex_t" type
+               (:members 
+                  ( ("__sig" variable (:type "long") (reparse-symbol classsubparts) [2614 2625])
+                    ("__opaque" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2627 2665]))                  
+                :type "struct")
+                nil [2580 2668])
+            ("_opaque_pthread_mutexattr_t" type
+               (:members 
+                  ( ("__sig" variable (:type "long") (reparse-symbol classsubparts) [2708 2719])
+                    ("__opaque" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2721 2763]))                  
+                :type "struct")
+                nil [2670 2766])
+            ("_opaque_pthread_once_t" type
+               (:members 
+                  ( ("__sig" variable (:type "long") (reparse-symbol classsubparts) [2801 2812])
+                    ("__opaque" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2814 2851]))                  
+                :type "struct")
+                nil [2768 2854])
+            ("_opaque_pthread_rwlock_t" type
+               (:members 
+                  ( ("__sig" variable (:type "long") (reparse-symbol classsubparts) [2891 2902])
+                    ("__opaque" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2904 2943]))                  
+                :type "struct")
+                nil [2856 2946])
+            ("_opaque_pthread_rwlockattr_t" type
+               (:members 
+                  ( ("__sig" variable (:type "long") (reparse-symbol classsubparts) [2987 2998])
+                    ("__opaque" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [3000 3043]))                  
+                :type "struct")
+                nil [2948 3046])
+            ("_opaque_pthread_t" type
+               (:members 
+                  ( ("__sig" variable (:type "long") (reparse-symbol classsubparts) [3076 3087])
+                    ("__cleanup_stack" variable
+                       (:pointer 1
+                        :type ("__darwin_pthread_handler_rec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [3089 3143])
+                    ("__opaque" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [3145 3177]))                  
+                :type "struct")
+                nil [3048 3180])
+            ("__darwin_pthread_attr_t" type
+               (:typedef ("_opaque_pthread_attr_t" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3182 3244])
+            ("__darwin_pthread_cond_t" type
+               (:typedef ("_opaque_pthread_cond_t" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3245 3307])
+            ("__darwin_pthread_condattr_t" type
+               (:typedef ("_opaque_pthread_condattr_t" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3308 3378])
+            ("__darwin_pthread_key_t" type
+               (:typedef ("unsigned long")
+                :type "typedef")
+                nil [3379 3424])
+            ("__darwin_pthread_mutex_t" type
+               (:typedef ("_opaque_pthread_mutex_t" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3425 3489])
+            ("__darwin_pthread_mutexattr_t" type
+               (:typedef ("_opaque_pthread_mutexattr_t" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3490 3562])
+            ("__darwin_pthread_once_t" type
+               (:typedef ("_opaque_pthread_once_t" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3563 3625])
+            ("__darwin_pthread_rwlock_t" type
+               (:typedef ("_opaque_pthread_rwlock_t" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3626 3692])
+            ("__darwin_pthread_rwlockattr_t" type
+               (:typedef ("_opaque_pthread_rwlockattr_t" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3693 3767])
+            ("__darwin_pthread_t" type
+               (:typedef ("_opaque_pthread_t" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :pointer 1
+                :type "typedef")
+                nil [3768 3821]))          
+      :file "_pthread_types.h"
+      :pointmax 3856
+      :fsize 3855
+      :lastmodtime '(24656 28654 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__PTHREAD_CONDATTR_SIZE__" . ((number "8" 1636 . 1637)))
+          ("_SYS__PTHREAD_TYPES_H_")
+          ("__PTHREAD_SIZE__" . ((number "8176" 1491 . 1495)))
+          ("__PTHREAD_RWLOCKATTR_SIZE__" . ((number "16" 1778 . 1780)))
+          ("__PTHREAD_MUTEX_SIZE__" . ((number "56" 1599 . 1601)))
+          ("__PTHREAD_COND_SIZE__" . ((number "40" 1669 . 1671)))
+          ("__PTHREAD_MUTEXATTR_SIZE__" . ((number "8" 1565 . 1566)))
+          ("__PTHREAD_RWLOCK_SIZE__" . ((number "192" 1738 . 1741)))
+          ("__PTHREAD_ATTR_SIZE__" . ((number "56" 1527 . 1529)))
+          ("__PTHREAD_ONCE_SIZE__" . ((number "8" 1703 . 1704)))
+          )
+))
+  :file "!Library!Developer!CommandLineTools!SDKs!MacOSX11.3.sdk!usr!include!sys!_pthread!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

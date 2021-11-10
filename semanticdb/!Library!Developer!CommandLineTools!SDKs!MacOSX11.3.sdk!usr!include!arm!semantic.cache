@@ -1,0 +1,186 @@
+;; Object semanticdb-project-database-file-46055d2c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-46055d2c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4608c8ce"
+      :major-mode c-mode
+      :tags 
+        '( ("_BSD_ARM__TYPES_H_" variable (:constant-flag t) nil [102 120])
+            ("__int8_t" type
+               (:typedef ("signed char")
+                :type "typedef")
+                nil [285 326])
+            ("__uint8_t" type
+               (:typedef ("unsigned char")
+                :type "typedef")
+                nil [417 459])
+            ("__int16_t" type
+               (:typedef ("short")
+                :type "typedef")
+                nil [460 502])
+            ("__uint16_t" type
+               (:typedef ("unsigned short")
+                :type "typedef")
+                nil [503 546])
+            ("__int32_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [547 589])
+            ("__uint32_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [590 633])
+            ("__int64_t" type
+               (:typedef ("long long")
+                :type "typedef")
+                nil [634 676])
+            ("__uint64_t" type
+               (:typedef ("unsigned long long")
+                :type "typedef")
+                nil [677 720])
+            ("__darwin_intptr_t" type
+               (:typedef ("long")
+                :type "typedef")
+                nil [722 772])
+            ("__darwin_natural_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [773 824])
+            ("__darwin_ct_rune_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1827 1878])
+            ("__mbstate_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("__mbstate8" variable
+                             (:dereference 1
+                              :type "char")
+                              (reparse-symbol classsubparts) [2077 2109])
+                          ("_mbstateL" variable (:type "long long") (reparse-symbol classsubparts) [2111 2137]))                        
+                      :type "union")
+                      nil nil)
+                :type "typedef")
+                nil [2060 2193])
+            ("__darwin_mbstate_t" type
+               (:typedef ("__mbstate_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2195 2246])
+            ("__darwin_ptrdiff_t" type
+               (:typedef ("long")
+                :type "typedef")
+                nil [2396 2447])
+            ("__darwin_size_t" type
+               (:typedef ("unsigned long")
+                :type "typedef")
+                nil [2677 2725])
+            ("__darwin_va_list" type
+               (:typedef ("__builtin_va_list" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2775 2824])
+            ("__darwin_wchar_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [2957 3006])
+            ("__darwin_rune_t" type
+               (:typedef ("__darwin_wchar_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3111 3159])
+            ("__darwin_wint_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [3208 3256])
+            ("__darwin_clock_t" type
+               (:typedef ("unsigned long")
+                :type "typedef")
+                nil [3360 3409])
+            ("__darwin_socklen_t" type
+               (:typedef ("__uint32_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3430 3481])
+            ("__darwin_ssize_t" type
+               (:typedef ("long")
+                :type "typedef")
+                nil [3508 3557])
+            ("__darwin_time_t" type
+               (:typedef ("long")
+                :type "typedef")
+                nil [3590 3638]))          
+      :file "_types.h"
+      :pointmax 3693
+      :fsize 3692
+      :lastmodtime '(24656 28653 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_BSD_ARM__TYPES_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-46131bc2"
+      :major-mode c-mode
+      :tags 
+        '( ("_MACHTYPES_H_" variable (:constant-flag t) nil [2035 2048])
+            ("arm/_types.h" include (:system-flag t) nil [2072 2095])
+            ("sys/cdefs.h" include (:system-flag t) nil [2096 2118])
+            ("sys/_types/_int8_t.h" include (:system-flag t) nil [2224 2255])
+            ("sys/_types/_int16_t.h" include (:system-flag t) nil [2256 2288])
+            ("sys/_types/_int32_t.h" include (:system-flag t) nil [2289 2321])
+            ("sys/_types/_int64_t.h" include (:system-flag t) nil [2322 2354])
+            ("sys/_types/_u_int8_t.h" include (:system-flag t) nil [2356 2389])
+            ("sys/_types/_u_int16_t.h" include (:system-flag t) nil [2390 2424])
+            ("sys/_types/_u_int32_t.h" include (:system-flag t) nil [2425 2459])
+            ("sys/_types/_u_int64_t.h" include (:system-flag t) nil [2460 2494])
+            ("register_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2509 2552])
+            ("sys/_types/_intptr_t.h" include (:system-flag t) nil [2611 2644])
+            ("sys/_types/_uintptr_t.h" include (:system-flag t) nil [2645 2679])
+            ("user_addr_t" type
+               (:typedef ("u_int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2853 2897])
+            ("user_size_t" type
+               (:typedef ("u_int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2898 2942])
+            ("user_ssize_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2943 2988])
+            ("user_long_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2989 3033])
+            ("user_ulong_t" type
+               (:typedef ("u_int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3034 3079])
+            ("user_time_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3080 3124])
+            ("user_off_t" type
+               (:typedef ("int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3125 3168])
+            ("USER_ADDR_NULL" variable (:constant-flag t) nil [3507 3521])
+            ("CAST_USER_ADDR_T" variable (:constant-flag t) nil [3549 3565])
+            ("syscall_arg_t" type
+               (:typedef ("u_int64_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [3856 3902]))          
+      :file "types.h"
+      :pointmax 4001
+      :fsize 4000
+      :lastmodtime '(24656 28653 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CAST_USER_ADDR_T" (spp-arg-list ("a_ptr") 3565 . 3572) . ((semantic-list "((user_addr_t)((uintptr_t)(a_ptr)))" 3575 . 3610)))
+          ("_MACHTYPES_H_")
+          ("USER_ADDR_NULL" . ((semantic-list "((user_addr_t) 0)" 3523 . 3540)))
+          )
+))
+  :file "!Library!Developer!CommandLineTools!SDKs!MacOSX11.3.sdk!usr!include!arm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

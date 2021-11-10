@@ -1,0 +1,1 @@
+("~/CLionProjects/learningCPP/" "~/emacs-c-ide-demo/")

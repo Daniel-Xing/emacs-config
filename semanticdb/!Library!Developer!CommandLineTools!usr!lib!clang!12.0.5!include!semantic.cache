@@ -1,0 +1,41 @@
+;; Object semanticdb-project-database-file-461fcc10
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-461fcc10"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4694c704"
+      :major-mode c-mode
+      :tags 
+        '( ("__STDARG_H" variable (:constant-flag t) nil [400 410])
+            ("va_list" type
+               (:typedef ("__builtin_va_list" type (:type "class") nil nil)
+                :type "typedef")
+                nil [429 463])
+            ("_VA_LIST" variable (:constant-flag t) nil [472 480])
+            ("va_start" variable (:constant-flag t) nil [496 504])
+            ("va_end" variable (:constant-flag t) nil [554 560])
+            ("va_arg" variable (:constant-flag t) nil [603 609])
+            ("__va_copy" variable (:constant-flag t) nil [803 812])
+            ("__GNUC_VA_LIST" variable (:constant-flag t) nil [1025 1039])
+            ("__gnuc_va_list" type
+               (:typedef ("__builtin_va_list" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1042 1083]))          
+      :file "stdarg.h"
+      :pointmax 1116
+      :fsize 1115
+      :lastmodtime '(24538 12079 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("va_start" (spp-arg-list ("ap" "param") 504 . 515) . ((symbol "__builtin_va_start" 516 . 534) (semantic-list "(ap, param)" 534 . 545)))
+          ("va_end" (spp-arg-list ("ap") 560 . 564) . ((symbol "__builtin_va_end" 574 . 590) (semantic-list "(ap)" 590 . 594)))
+          ("_VA_LIST")
+          ("__va_copy" (spp-arg-list ("d" "s") 812 . 817) . ((symbol "__builtin_va_copy" 818 . 835) (semantic-list "(d,s)" 835 . 840)))
+          ("__STDARG_H")
+          ("va_arg" (spp-arg-list ("ap" "type") 609 . 619) . ((symbol "__builtin_va_arg" 623 . 639) (semantic-list "(ap, type)" 639 . 649)))
+          ("__GNUC_VA_LIST" . ((number "1" 1040 . 1041)))
+          )
+))
+  :file "!Library!Developer!CommandLineTools!usr!lib!clang!12.0.5!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

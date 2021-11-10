@@ -1,0 +1,63 @@
+;; Object semanticdb-project-database-file-4f8ccb60
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4f8ccb60"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4f8ccb20"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("ostream" include (:system-flag t) nil [21 39])
+            ("./test.h" include nil nil [40 59])
+            ("print" function
+               (:prototype-flag t
+                :type "void")
+                nil [61 74])
+            ("Test" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [90 98])
+                    ("test" variable (:type "int") (reparse-symbol classsubparts) [101 110])
+                    ("public" label nil (reparse-symbol classsubparts) [113 120])
+                    ("seeTest" function
+                       (:arguments 
+                          ( ("number" variable (:type "int") (reparse-symbol arg-sub-list) [136 147]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [123 179])
+                    ("getTest" function (:type "int") (reparse-symbol classsubparts) [184 229]))                  
+                :type "class")
+                nil [77 233])
+            ("main" function (:type "int") nil [235 548])
+            ("print" function (:type "void") nil [550 626]))          
+      :file "main.cpp"
+      :pointmax 627
+      :fsize 626
+      :lastmodtime '(24971 3318 322290 800000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-4f8ccb40"
+      :major-mode c++-mode
+      :tags 
+        '( ("test" type
+               (:members 
+                  ( ("test1" variable
+                       (:default-value "1"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [60 73])
+                    ("print" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [78 91]))                  
+                :type "namespace")
+                nil [39 93])
+            ("LEARNINGCPP_TEST_H" variable (:constant-flag t) nil [130 148]))          
+      :file "test.h"
+      :pointmax 178
+      :fsize 181
+      :lastmodtime '(24916 30725 327024 60000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LEARNINGCPP_TEST_H")
+          )
+))
+  :file "!Users!xingzheng!CLionProjects!learningCPP!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

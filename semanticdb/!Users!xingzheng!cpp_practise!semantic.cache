@@ -1,0 +1,45 @@
+;; Object semanticdb-project-database-file-4664841a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-4664841a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-46648434"
+      :major-mode c++-mode
+      :tags 
+        '( ("Print.h" include nil nil [39 57])
+            ("Print" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [73 80])
+                    ("set_number" function
+                       (:arguments 
+                          ( ("num" variable (:type "int") (reparse-symbol arg-sub-list) [101 109]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [85 116])
+                    ("set_str" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("str" variable (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [135 151]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [122 152])
+                    ("get_number" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [157 174])
+                    ("get_string" function
+                       (:prototype-flag t
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [179 204]))                  
+                :type "class")
+                nil [59 207]))          
+      :file "Print.cpp"
+      :pointmax 208
+      :fsize 211
+      :lastmodtime '(24971 2069 96409 272000)
+      :unmatched-syntax '((punctuation 116 . 117) (punctuation 116 . 117) (punctuation 116 . 117)))
+    (semanticdb-table "semanticdb-table-4e441b5c"
+      :file "Print.h"
+      :fsize 345
+      :lastmodtime '(24965 7339 900665 784000)))
+  :file "!Users!xingzheng!cpp_practise!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

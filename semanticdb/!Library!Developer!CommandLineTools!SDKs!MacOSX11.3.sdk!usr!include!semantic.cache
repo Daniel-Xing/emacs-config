@@ -1,0 +1,1200 @@
+;; Object semanticdb-project-database-file-461838b8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-461838b8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-4603014c"
+      :major-mode c-mode
+      :tags 
+        '( ("__AVAILABILITY__" variable (:constant-flag t) nil [1014 1030])
+            ("__API_TO_BE_DEPRECATED" variable (:constant-flag t) nil [6022 6044])
+            ("AvailabilityVersions.h" include (:system-flag t) nil [6060 6093])
+            ("AvailabilityInternal.h" include (:system-flag t) nil [6094 6127])
+            ("__OSX_AVAILABLE_STARTING" variable (:constant-flag t) nil [9544 9568])
+            ("__OSX_AVAILABLE_BUT_DEPRECATED" variable (:constant-flag t) nil [9593 9623])
+            ("__OSX_AVAILABLE_BUT_DEPRECATED_MSG" variable (:constant-flag t) nil [9676 9710])
+            ("__OS_AVAILABILITY" variable (:constant-flag t) nil [10401 10418])
+            ("__OS_AVAILABILITY_MSG" variable (:constant-flag t) nil [10455 10476])
+            ("__OSX_EXTENSION_UNAVAILABLE" variable (:constant-flag t) nil [11013 11040])
+            ("__IOS_EXTENSION_UNAVAILABLE" variable (:constant-flag t) nil [11059 11086])
+            ("__OS_EXTENSION_UNAVAILABLE" variable (:constant-flag t) nil [11216 11242])
+            ("__OSX_UNAVAILABLE" variable (:constant-flag t) nil [11796 11813])
+            ("__OSX_AVAILABLE" variable (:constant-flag t) nil [11856 11871])
+            ("__OSX_DEPRECATED" variable (:constant-flag t) nil [11922 11938])
+            ("__IOS_UNAVAILABLE" variable (:constant-flag t) nil [12514 12531])
+            ("__IOS_PROHIBITED" variable (:constant-flag t) nil [12575 12591])
+            ("__IOS_AVAILABLE" variable (:constant-flag t) nil [12634 12649])
+            ("__IOS_DEPRECATED" variable (:constant-flag t) nil [12700 12716])
+            ("__TVOS_UNAVAILABLE" variable (:constant-flag t) nil [13314 13332])
+            ("__TVOS_PROHIBITED" variable (:constant-flag t) nil [13377 13394])
+            ("__TVOS_AVAILABLE" variable (:constant-flag t) nil [13438 13454])
+            ("__TVOS_DEPRECATED" variable (:constant-flag t) nil [13506 13523])
+            ("__WATCHOS_UNAVAILABLE" variable (:constant-flag t) nil [14158 14179])
+            ("__WATCHOS_PROHIBITED" variable (:constant-flag t) nil [14227 14247])
+            ("__WATCHOS_AVAILABLE" variable (:constant-flag t) nil [14294 14313])
+            ("__WATCHOS_DEPRECATED" variable (:constant-flag t) nil [14368 14388])
+            ("__SWIFT_UNAVAILABLE" variable (:constant-flag t) nil [14782 14801])
+            ("__SWIFT_UNAVAILABLE_MSG" variable (:constant-flag t) nil [14852 14875])
+            ("__API_AVAILABLE" variable (:constant-flag t) nil [19361 19376])
+            ("__API_AVAILABLE_BEGIN" variable (:constant-flag t) nil [19394 19415])
+            ("__API_AVAILABLE_END" variable (:constant-flag t) nil [19433 19452])
+            ("__API_DEPRECATED" variable (:constant-flag t) nil [19465 19481])
+            ("__API_DEPRECATED_WITH_REPLACEMENT" variable (:constant-flag t) nil [19499 19532])
+            ("__API_DEPRECATED_BEGIN" variable (:constant-flag t) nil [19550 19572])
+            ("__API_DEPRECATED_END" variable (:constant-flag t) nil [19590 19610])
+            ("__API_DEPRECATED_WITH_REPLACEMENT_BEGIN" variable (:constant-flag t) nil [19623 19662])
+            ("__API_DEPRECATED_WITH_REPLACEMENT_END" variable (:constant-flag t) nil [19680 19717])
+            ("__API_UNAVAILABLE" variable (:constant-flag t) nil [19730 19747])
+            ("__API_UNAVAILABLE_BEGIN" variable (:constant-flag t) nil [19765 19788])
+            ("__API_UNAVAILABLE_END" variable (:constant-flag t) nil [19806 19827])
+            ("__SPI_AVAILABLE" variable (:constant-flag t) nil [20755 20770])
+            ("__SPI_DEPRECATED" variable (:constant-flag t) nil [20819 20835])
+            ("__SPI_DEPRECATED_WITH_REPLACEMENT" variable (:constant-flag t) nil [20901 20934]))          
+      :file "Availability.h"
+      :pointmax 20979
+      :fsize 20978
+      :lastmodtime '(24656 47133 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__OSX_AVAILABLE_STARTING" (spp-arg-list ("_osx" "_ios") 9568 . 9580))
+          ("__SWIFT_UNAVAILABLE")
+          ("__AVAILABILITY__")
+          ("__API_DEPRECATED" (spp-arg-list ("...") 19481 . 19486))
+          ("__API_DEPRECATED_WITH_REPLACEMENT_END")
+          ("__SPI_AVAILABLE" (spp-arg-list ("...") 20770 . 20775))
+          ("__IOS_EXTENSION_UNAVAILABLE" (spp-arg-list ("_msg") 11086 . 11092))
+          ("__OSX_UNAVAILABLE")
+          ("__OSX_AVAILABLE_BUT_DEPRECATED_MSG" (spp-arg-list ("_osxIntro" "_osxDep" "_iosIntro" "_iosDep" "_msg") 9710 . 9756))
+          ("__OS_AVAILABILITY_MSG" (spp-arg-list ("_target" "_availability" "_msg") 10476 . 10506))
+          ("__API_AVAILABLE_END")
+          ("__API_DEPRECATED_BEGIN" (spp-arg-list ("...") 19572 . 19577))
+          ("__API_DEPRECATED_END")
+          ("__API_UNAVAILABLE_BEGIN" (spp-arg-list ("...") 19788 . 19793))
+          ("__API_UNAVAILABLE_END")
+          ("__SPI_DEPRECATED" (spp-arg-list ("...") 20835 . 20840))
+          ("__OSX_AVAILABLE" (spp-arg-list ("_vers") 11871 . 11878))
+          ("__OS_EXTENSION_UNAVAILABLE" (spp-arg-list ("_msg") 11242 . 11248) . 
+              ((symbol "__OSX_EXTENSION_UNAVAILABLE" 11250 . 11277) (semantic-list "(_msg)" 11277 . 11283) (symbol "__IOS_EXTENSION_UNAVAILABLE" 11284 . 11311) (semantic-list "(_msg)" 11311 . 11317)))
+          ("__TVOS_DEPRECATED" (spp-arg-list ("_start" "_dep" "_msg") 13523 . 13543))
+          ("__API_AVAILABLE_BEGIN" (spp-arg-list ("...") 19415 . 19420))
+          ("__TVOS_PROHIBITED")
+          ("__WATCHOS_AVAILABLE" (spp-arg-list ("_vers") 14313 . 14320))
+          ("__API_DEPRECATED_WITH_REPLACEMENT" (spp-arg-list ("...") 19532 . 19537))
+          ("__API_TO_BE_DEPRECATED" . ((number "100000" 6045 . 6051)))
+          ("__OSX_AVAILABLE_BUT_DEPRECATED" (spp-arg-list ("_osxIntro" "_osxDep" "_iosIntro" "_iosDep") 9623 . 9663))
+          ("__OSX_EXTENSION_UNAVAILABLE" (spp-arg-list ("_msg") 11040 . 11046))
+          ("__WATCHOS_DEPRECATED" (spp-arg-list ("_start" "_dep" "_msg") 14388 . 14408))
+          ("__API_UNAVAILABLE" (spp-arg-list ("...") 19747 . 19752))
+          ("__IOS_UNAVAILABLE")
+          ("__WATCHOS_PROHIBITED")
+          ("__API_AVAILABLE" (spp-arg-list ("...") 19376 . 19381))
+          ("__API_DEPRECATED_WITH_REPLACEMENT_BEGIN" (spp-arg-list ("...") 19662 . 19667))
+          ("__IOS_DEPRECATED" (spp-arg-list ("_start" "_dep" "_msg") 12716 . 12736))
+          ("__TVOS_AVAILABLE" (spp-arg-list ("_vers") 13454 . 13461))
+          ("__WATCHOS_UNAVAILABLE")
+          ("__IOS_PROHIBITED")
+          ("__SPI_DEPRECATED_WITH_REPLACEMENT" (spp-arg-list ("...") 20934 . 20939))
+          ("__OS_AVAILABILITY" (spp-arg-list ("_target" "_availability") 10418 . 10442))
+          ("__OSX_DEPRECATED" (spp-arg-list ("_start" "_dep" "_msg") 11938 . 11958))
+          ("__IOS_AVAILABLE" (spp-arg-list ("_vers") 12649 . 12656))
+          ("__TVOS_UNAVAILABLE")
+          ("__SWIFT_UNAVAILABLE_MSG" (spp-arg-list ("_msg") 14875 . 14881))
+          )
+)
+    (semanticdb-table "semanticdb-table-a6d0a6ac"
+      :major-mode c-mode
+      :tags 
+        '( ("_XLOCALE_H_" variable (:constant-flag t) nil [1009 1020])
+            ("sys/cdefs.h" include (:system-flag t) nil [1022 1044])
+            ("_USE_EXTENDED_LOCALES_" variable (:constant-flag t) nil [1085 1107])
+            ("_locale.h" include (:system-flag t) nil [1145 1165])
+            ("_xlocale.h" include (:system-flag t) nil [1166 1187])
+            ("LC_ALL_MASK" variable (:constant-flag t) nil [1197 1208])
+            ("LC_COLLATE_MASK" variable (:constant-flag t) nil [1367 1382])
+            ("LC_CTYPE_MASK" variable (:constant-flag t) nil [1402 1415])
+            ("LC_MESSAGES_MASK" variable (:constant-flag t) nil [1435 1451])
+            ("LC_MONETARY_MASK" variable (:constant-flag t) nil [1470 1486])
+            ("LC_NUMERIC_MASK" variable (:constant-flag t) nil [1505 1520])
+            ("LC_TIME_MASK" variable (:constant-flag t) nil [1540 1552])
+            ("_LC_NUM_MASK" variable (:constant-flag t) nil [1573 1585])
+            ("_LC_LAST_MASK" variable (:constant-flag t) nil [1598 1611])
+            ("LC_GLOBAL_LOCALE" variable (:constant-flag t) nil [1649 1665])
+            ("LC_C_LOCALE" variable (:constant-flag t) nil [1690 1701])
+            ("uselocale" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("locale_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2175 2184]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2156 2185])
+            ("querylocale" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [2140 2144])
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2145 2154]))                  
+                :constant-flag t
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2113 2155])
+            ("newlocale" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("locale_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [2081 2085])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2086 2101])
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2102 2111]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2062 2112])
+            ("localeconv_l" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("lconv" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2051 2060]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2023 2061])
+            ("freelocale" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2012 2021]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1996 2022])
+            ("duplocale" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("locale_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1985 1994]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1966 1995])
+            ("_c_locale" variable
+               (:type ("locale_t" type (:type "class") nil nil)
+                :constant-flag t
+                :typemodifiers ("extern" "\"C\"" "extern"))
+                (reparse-symbol extern-c-contents) [1932 1964]))          
+      :file "xlocale.h"
+      :pointmax 3088
+      :fsize 3087
+      :lastmodtime '(24656 28655 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LC_C_LOCALE" . ((semantic-list "((locale_t)NULL)" 1705 . 1721)))
+          ("LC_MONETARY_MASK" . ((semantic-list "(1 << 3)" 1488 . 1496)))
+          ("_XLOCALE_H_")
+          ("LC_NUMERIC_MASK" . ((semantic-list "(1 << 4)" 1523 . 1531)))
+          ("LC_COLLATE_MASK" . ((semantic-list "(1 << 0)" 1385 . 1393)))
+          ("LC_GLOBAL_LOCALE" . ((semantic-list "((locale_t)-1)" 1667 . 1681)))
+          ("LC_MESSAGES_MASK" . ((semantic-list "(1 << 2)" 1453 . 1461)))
+          ("_LC_LAST_MASK" . ((semantic-list "(1 << (_LC_NUM_MASK - 1))" 1614 . 1639)))
+          ("LC_ALL_MASK" . ((semantic-list "(  LC_COLLATE_MASK \\
+					 | LC_CTYPE_MASK \\
+					 | LC_MESSAGES_MASK \\
+					 | LC_MONETARY_MASK \\
+					 | LC_NUMERIC_MASK \\
+					 | LC_TIME_MASK )" 1211 . 1358)))
+          ("LC_CTYPE_MASK" . ((semantic-list "(1 << 1)" 1418 . 1426)))
+          ("LC_TIME_MASK" . ((semantic-list "(1 << 5)" 1555 . 1563)))
+          ("_LC_NUM_MASK" . ((number "6" 1588 . 1589)))
+          ("_USE_EXTENDED_LOCALES_")
+          )
+)
+    (semanticdb-table "semanticdb-table-4e7b302e"
+      :major-mode c-mode
+      :tags 
+        '( ("_TIME_H_" variable (:constant-flag t) nil [3182 3190])
+            ("_types.h" include (:system-flag t) nil [3192 3211])
+            ("sys/cdefs.h" include (:system-flag t) nil [3212 3234])
+            ("Availability.h" include (:system-flag t) nil [3235 3260])
+            ("sys/_types/_clock_t.h" include (:system-flag t) nil [3261 3293])
+            ("sys/_types/_null.h" include (:system-flag t) nil [3294 3323])
+            ("sys/_types/_size_t.h" include (:system-flag t) nil [3324 3355])
+            ("sys/_types/_time_t.h" include (:system-flag t) nil [3356 3387])
+            ("sys/_types/_timespec.h" include (:system-flag t) nil [3388 3421])
+            ("tm" type
+               (:members 
+                  ( ("tm_sec" variable (:type "int") (reparse-symbol classsubparts) [3436 3447])
+                    ("tm_min" variable (:type "int") (reparse-symbol classsubparts) [3488 3499])
+                    ("tm_hour" variable (:type "int") (reparse-symbol classsubparts) [3538 3550])
+                    ("tm_mday" variable (:type "int") (reparse-symbol classsubparts) [3586 3598])
+                    ("tm_mon" variable (:type "int") (reparse-symbol classsubparts) [3630 3641])
+                    ("tm_year" variable (:type "int") (reparse-symbol classsubparts) [3678 3690])
+                    ("tm_wday" variable (:type "int") (reparse-symbol classsubparts) [3715 3727])
+                    ("tm_yday" variable (:type "int") (reparse-symbol classsubparts) [3759 3771])
+                    ("tm_isdst" variable (:type "int") (reparse-symbol classsubparts) [3808 3821])
+                    ("tm_gmtoff" variable (:type "long") (reparse-symbol classsubparts) [3856 3871])
+                    ("tm_zone" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [3906 3920]))                  
+                :type "struct")
+                nil [3423 3951])
+            ("CLOCKS_PER_SEC" variable (:constant-flag t) nil [3981 3995])
+            ("tzname" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("extern")
+                :type "char")
+                nil [4209 4231])
+            ("getdate_err" variable
+               (:typemodifiers ("extern")
+                :type "int")
+                nil [4240 4263])
+            ("timezone" variable
+               (:typemodifiers ("extern")
+                :type "long")
+                nil [4284 4330])
+            ("daylight" variable
+               (:typemodifiers ("extern")
+                :type "int")
+                nil [4360 4380])
+            ("nanosleep" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("__rqtp" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timespec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5694 5724])
+                    ("__rmtp" variable
+                       (:pointer 1
+                        :type ("timespec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5725 5749]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5680 5778])
+            ("timegm" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("time_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5596 5614]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5582 5615])
+            ("timelocal" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("time_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5562 5580]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5545 5581])
+            ("time2posix" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("time_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("time_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5536 5543]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5518 5544])
+            ("tzsetwall" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5511 5516]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5496 5517])
+            ("posix2time" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("time_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type ("time_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5410 5417]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5392 5418])
+            ("localtime_r" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("tm" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("time_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5252 5278])
+                    ("" variable
+                       (:pointer 1
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5279 5302]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5229 5303])
+            ("gmtime_r" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("tm" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("time_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5177 5203])
+                    ("" variable
+                       (:pointer 1
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5204 5227]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5157 5228])
+            ("ctime_r" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("time_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5132 5147])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5148 5155]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5118 5156])
+            ("asctime_r" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [5068 5097])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5098 5116]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5052 5117])
+            ("tzset" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4988 4993]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4977 4994])
+            ("time" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("time_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("time_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4944 4953]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4932 4954])
+            ("strptime" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4832 4856])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4857 4881])
+                    ("" variable
+                       (:pointer 1
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4882 4905]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4817 4931])
+            ("strftime" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4709 4727])
+                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4728 4735])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4736 4760])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4761 4790]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4693 4816])
+            ("mktime" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("time_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4656 4668]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4642 4692])
+            ("localtime" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("tm" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("time_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4625 4640]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4604 4641])
+            ("gmtime" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("tm" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("time_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4587 4602]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4569 4603])
+            ("getdate" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("tm" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4554 4567]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4535 4568])
+            ("difftime" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "double"
+                :arguments 
+                  ( ("" variable (:type ("time_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4518 4525])
+                    ("" variable (:type ("time_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4526 4533]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4502 4534])
+            ("ctime" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("time_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4485 4500]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4473 4501])
+            ("clock" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("clock_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4444 4449]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4430 4472])
+            ("asctime" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4410 4428]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4396 4429]))          
+      :file "time.h"
+      :pointmax 8103
+      :fsize 8102
+      :lastmodtime '(24656 47117 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CLOCKS_PER_SEC" . ((number "1000000" 3997 . 4004)))
+          ("_TIME_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-46156db8"
+      :major-mode c-mode
+      :tags 
+        '( ("__AVAILABILITY_VERSIONS__" variable (:constant-flag t) nil [1018 1043])
+            ("__MAC_10_0" variable (:constant-flag t) nil [1053 1063])
+            ("__MAC_10_1" variable (:constant-flag t) nil [1088 1098])
+            ("__MAC_10_2" variable (:constant-flag t) nil [1123 1133])
+            ("__MAC_10_3" variable (:constant-flag t) nil [1158 1168])
+            ("__MAC_10_4" variable (:constant-flag t) nil [1193 1203])
+            ("__MAC_10_5" variable (:constant-flag t) nil [1228 1238])
+            ("__MAC_10_6" variable (:constant-flag t) nil [1263 1273])
+            ("__MAC_10_7" variable (:constant-flag t) nil [1298 1308])
+            ("__MAC_10_8" variable (:constant-flag t) nil [1333 1343])
+            ("__MAC_10_9" variable (:constant-flag t) nil [1368 1378])
+            ("__MAC_10_10" variable (:constant-flag t) nil [1403 1414])
+            ("__MAC_10_10_2" variable (:constant-flag t) nil [1438 1451])
+            ("__MAC_10_10_3" variable (:constant-flag t) nil [1473 1486])
+            ("__MAC_10_11" variable (:constant-flag t) nil [1508 1519])
+            ("__MAC_10_11_2" variable (:constant-flag t) nil [1543 1556])
+            ("__MAC_10_11_3" variable (:constant-flag t) nil [1578 1591])
+            ("__MAC_10_11_4" variable (:constant-flag t) nil [1613 1626])
+            ("__MAC_10_12" variable (:constant-flag t) nil [1648 1659])
+            ("__MAC_10_12_1" variable (:constant-flag t) nil [1683 1696])
+            ("__MAC_10_12_2" variable (:constant-flag t) nil [1718 1731])
+            ("__MAC_10_12_4" variable (:constant-flag t) nil [1753 1766])
+            ("__MAC_10_13" variable (:constant-flag t) nil [1788 1799])
+            ("__MAC_10_13_1" variable (:constant-flag t) nil [1823 1836])
+            ("__MAC_10_13_2" variable (:constant-flag t) nil [1858 1871])
+            ("__MAC_10_13_4" variable (:constant-flag t) nil [1893 1906])
+            ("__MAC_10_14" variable (:constant-flag t) nil [1928 1939])
+            ("__MAC_10_14_1" variable (:constant-flag t) nil [1963 1976])
+            ("__MAC_10_14_4" variable (:constant-flag t) nil [1998 2011])
+            ("__MAC_10_14_6" variable (:constant-flag t) nil [2033 2046])
+            ("__MAC_10_15" variable (:constant-flag t) nil [2068 2079])
+            ("__MAC_10_15_1" variable (:constant-flag t) nil [2103 2116])
+            ("__MAC_10_15_4" variable (:constant-flag t) nil [2138 2151])
+            ("__MAC_10_16" variable (:constant-flag t) nil [2173 2184])
+            ("__MAC_11_0" variable (:constant-flag t) nil [2208 2218])
+            ("__MAC_11_1" variable (:constant-flag t) nil [2243 2253])
+            ("__MAC_11_3" variable (:constant-flag t) nil [2278 2288])
+            ("__IPHONE_2_0" variable (:constant-flag t) nil [2428 2440])
+            ("__IPHONE_2_1" variable (:constant-flag t) nil [2460 2472])
+            ("__IPHONE_2_2" variable (:constant-flag t) nil [2492 2504])
+            ("__IPHONE_3_0" variable (:constant-flag t) nil [2524 2536])
+            ("__IPHONE_3_1" variable (:constant-flag t) nil [2556 2568])
+            ("__IPHONE_3_2" variable (:constant-flag t) nil [2588 2600])
+            ("__IPHONE_4_0" variable (:constant-flag t) nil [2620 2632])
+            ("__IPHONE_4_1" variable (:constant-flag t) nil [2652 2664])
+            ("__IPHONE_4_2" variable (:constant-flag t) nil [2684 2696])
+            ("__IPHONE_4_3" variable (:constant-flag t) nil [2716 2728])
+            ("__IPHONE_5_0" variable (:constant-flag t) nil [2748 2760])
+            ("__IPHONE_5_1" variable (:constant-flag t) nil [2780 2792])
+            ("__IPHONE_6_0" variable (:constant-flag t) nil [2812 2824])
+            ("__IPHONE_6_1" variable (:constant-flag t) nil [2844 2856])
+            ("__IPHONE_7_0" variable (:constant-flag t) nil [2876 2888])
+            ("__IPHONE_7_1" variable (:constant-flag t) nil [2908 2920])
+            ("__IPHONE_8_0" variable (:constant-flag t) nil [2940 2952])
+            ("__IPHONE_8_1" variable (:constant-flag t) nil [2972 2984])
+            ("__IPHONE_8_2" variable (:constant-flag t) nil [3004 3016])
+            ("__IPHONE_8_3" variable (:constant-flag t) nil [3036 3048])
+            ("__IPHONE_8_4" variable (:constant-flag t) nil [3068 3080])
+            ("__IPHONE_9_0" variable (:constant-flag t) nil [3100 3112])
+            ("__IPHONE_9_1" variable (:constant-flag t) nil [3132 3144])
+            ("__IPHONE_9_2" variable (:constant-flag t) nil [3164 3176])
+            ("__IPHONE_9_3" variable (:constant-flag t) nil [3196 3208])
+            ("__IPHONE_10_0" variable (:constant-flag t) nil [3228 3241])
+            ("__IPHONE_10_1" variable (:constant-flag t) nil [3260 3273])
+            ("__IPHONE_10_2" variable (:constant-flag t) nil [3292 3305])
+            ("__IPHONE_10_3" variable (:constant-flag t) nil [3324 3337])
+            ("__IPHONE_11_0" variable (:constant-flag t) nil [3356 3369])
+            ("__IPHONE_11_1" variable (:constant-flag t) nil [3388 3401])
+            ("__IPHONE_11_2" variable (:constant-flag t) nil [3420 3433])
+            ("__IPHONE_11_3" variable (:constant-flag t) nil [3452 3465])
+            ("__IPHONE_11_4" variable (:constant-flag t) nil [3484 3497])
+            ("__IPHONE_12_0" variable (:constant-flag t) nil [3516 3529])
+            ("__IPHONE_12_1" variable (:constant-flag t) nil [3548 3561])
+            ("__IPHONE_12_2" variable (:constant-flag t) nil [3580 3593])
+            ("__IPHONE_12_3" variable (:constant-flag t) nil [3612 3625])
+            ("__IPHONE_12_4" variable (:constant-flag t) nil [3644 3657])
+            ("__IPHONE_13_0" variable (:constant-flag t) nil [3676 3689])
+            ("__IPHONE_13_1" variable (:constant-flag t) nil [3708 3721])
+            ("__IPHONE_13_2" variable (:constant-flag t) nil [3740 3753])
+            ("__IPHONE_13_3" variable (:constant-flag t) nil [3772 3785])
+            ("__IPHONE_13_4" variable (:constant-flag t) nil [3804 3817])
+            ("__IPHONE_13_5" variable (:constant-flag t) nil [3836 3849])
+            ("__IPHONE_13_6" variable (:constant-flag t) nil [3868 3881])
+            ("__IPHONE_13_7" variable (:constant-flag t) nil [3900 3913])
+            ("__IPHONE_14_0" variable (:constant-flag t) nil [3932 3945])
+            ("__IPHONE_14_1" variable (:constant-flag t) nil [3964 3977])
+            ("__IPHONE_14_2" variable (:constant-flag t) nil [3996 4009])
+            ("__IPHONE_14_3" variable (:constant-flag t) nil [4028 4041])
+            ("__IPHONE_14_5" variable (:constant-flag t) nil [4060 4073])
+            ("__TVOS_9_0" variable (:constant-flag t) nil [4210 4220])
+            ("__TVOS_9_1" variable (:constant-flag t) nil [4242 4252])
+            ("__TVOS_9_2" variable (:constant-flag t) nil [4274 4284])
+            ("__TVOS_10_0" variable (:constant-flag t) nil [4306 4317])
+            ("__TVOS_10_0_1" variable (:constant-flag t) nil [4338 4351])
+            ("__TVOS_10_1" variable (:constant-flag t) nil [4370 4381])
+            ("__TVOS_10_2" variable (:constant-flag t) nil [4402 4413])
+            ("__TVOS_11_0" variable (:constant-flag t) nil [4434 4445])
+            ("__TVOS_11_1" variable (:constant-flag t) nil [4466 4477])
+            ("__TVOS_11_2" variable (:constant-flag t) nil [4498 4509])
+            ("__TVOS_11_3" variable (:constant-flag t) nil [4530 4541])
+            ("__TVOS_11_4" variable (:constant-flag t) nil [4562 4573])
+            ("__TVOS_12_0" variable (:constant-flag t) nil [4594 4605])
+            ("__TVOS_12_1" variable (:constant-flag t) nil [4626 4637])
+            ("__TVOS_12_2" variable (:constant-flag t) nil [4658 4669])
+            ("__TVOS_12_3" variable (:constant-flag t) nil [4690 4701])
+            ("__TVOS_12_4" variable (:constant-flag t) nil [4722 4733])
+            ("__TVOS_13_0" variable (:constant-flag t) nil [4754 4765])
+            ("__TVOS_13_2" variable (:constant-flag t) nil [4786 4797])
+            ("__TVOS_13_3" variable (:constant-flag t) nil [4818 4829])
+            ("__TVOS_13_4" variable (:constant-flag t) nil [4850 4861])
+            ("__TVOS_14_0" variable (:constant-flag t) nil [4882 4893])
+            ("__TVOS_14_1" variable (:constant-flag t) nil [4914 4925])
+            ("__TVOS_14_2" variable (:constant-flag t) nil [4946 4957])
+            ("__TVOS_14_3" variable (:constant-flag t) nil [4978 4989])
+            ("__TVOS_14_5" variable (:constant-flag t) nil [5010 5021])
+            ("__WATCHOS_1_0" variable (:constant-flag t) nil [5043 5056])
+            ("__WATCHOS_2_0" variable (:constant-flag t) nil [5075 5088])
+            ("__WATCHOS_2_1" variable (:constant-flag t) nil [5107 5120])
+            ("__WATCHOS_2_2" variable (:constant-flag t) nil [5139 5152])
+            ("__WATCHOS_3_0" variable (:constant-flag t) nil [5171 5184])
+            ("__WATCHOS_3_1" variable (:constant-flag t) nil [5203 5216])
+            ("__WATCHOS_3_1_1" variable (:constant-flag t) nil [5235 5250])
+            ("__WATCHOS_3_2" variable (:constant-flag t) nil [5267 5280])
+            ("__WATCHOS_4_0" variable (:constant-flag t) nil [5299 5312])
+            ("__WATCHOS_4_1" variable (:constant-flag t) nil [5331 5344])
+            ("__WATCHOS_4_2" variable (:constant-flag t) nil [5363 5376])
+            ("__WATCHOS_4_3" variable (:constant-flag t) nil [5395 5408])
+            ("__WATCHOS_5_0" variable (:constant-flag t) nil [5427 5440])
+            ("__WATCHOS_5_1" variable (:constant-flag t) nil [5459 5472])
+            ("__WATCHOS_5_2" variable (:constant-flag t) nil [5491 5504])
+            ("__WATCHOS_5_3" variable (:constant-flag t) nil [5523 5536])
+            ("__WATCHOS_6_0" variable (:constant-flag t) nil [5555 5568])
+            ("__WATCHOS_6_1" variable (:constant-flag t) nil [5587 5600])
+            ("__WATCHOS_6_2" variable (:constant-flag t) nil [5619 5632])
+            ("__WATCHOS_7_0" variable (:constant-flag t) nil [5651 5664])
+            ("__WATCHOS_7_1" variable (:constant-flag t) nil [5683 5696])
+            ("__WATCHOS_7_2" variable (:constant-flag t) nil [5715 5728])
+            ("__WATCHOS_7_3" variable (:constant-flag t) nil [5747 5760])
+            ("__WATCHOS_7_4" variable (:constant-flag t) nil [5779 5792])
+            ("MAC_OS_X_VERSION_10_0" variable (:constant-flag t) nil [5946 5967])
+            ("MAC_OS_X_VERSION_10_1" variable (:constant-flag t) nil [5989 6010])
+            ("MAC_OS_X_VERSION_10_2" variable (:constant-flag t) nil [6032 6053])
+            ("MAC_OS_X_VERSION_10_3" variable (:constant-flag t) nil [6075 6096])
+            ("MAC_OS_X_VERSION_10_4" variable (:constant-flag t) nil [6118 6139])
+            ("MAC_OS_X_VERSION_10_5" variable (:constant-flag t) nil [6161 6182])
+            ("MAC_OS_X_VERSION_10_6" variable (:constant-flag t) nil [6204 6225])
+            ("MAC_OS_X_VERSION_10_7" variable (:constant-flag t) nil [6247 6268])
+            ("MAC_OS_X_VERSION_10_8" variable (:constant-flag t) nil [6290 6311])
+            ("MAC_OS_X_VERSION_10_9" variable (:constant-flag t) nil [6333 6354])
+            ("MAC_OS_X_VERSION_10_10" variable (:constant-flag t) nil [6376 6398])
+            ("MAC_OS_X_VERSION_10_10_2" variable (:constant-flag t) nil [6419 6443])
+            ("MAC_OS_X_VERSION_10_10_3" variable (:constant-flag t) nil [6462 6486])
+            ("MAC_OS_X_VERSION_10_11" variable (:constant-flag t) nil [6505 6527])
+            ("MAC_OS_X_VERSION_10_11_2" variable (:constant-flag t) nil [6548 6572])
+            ("MAC_OS_X_VERSION_10_11_3" variable (:constant-flag t) nil [6591 6615])
+            ("MAC_OS_X_VERSION_10_11_4" variable (:constant-flag t) nil [6634 6658])
+            ("MAC_OS_X_VERSION_10_12" variable (:constant-flag t) nil [6677 6699])
+            ("MAC_OS_X_VERSION_10_12_1" variable (:constant-flag t) nil [6720 6744])
+            ("MAC_OS_X_VERSION_10_12_2" variable (:constant-flag t) nil [6763 6787])
+            ("MAC_OS_X_VERSION_10_12_4" variable (:constant-flag t) nil [6806 6830])
+            ("MAC_OS_X_VERSION_10_13" variable (:constant-flag t) nil [6849 6871])
+            ("MAC_OS_X_VERSION_10_13_1" variable (:constant-flag t) nil [6892 6916])
+            ("MAC_OS_X_VERSION_10_13_2" variable (:constant-flag t) nil [6935 6959])
+            ("MAC_OS_X_VERSION_10_13_4" variable (:constant-flag t) nil [6978 7002])
+            ("MAC_OS_X_VERSION_10_14" variable (:constant-flag t) nil [7021 7043])
+            ("MAC_OS_X_VERSION_10_14_1" variable (:constant-flag t) nil [7064 7088])
+            ("MAC_OS_X_VERSION_10_14_4" variable (:constant-flag t) nil [7107 7131])
+            ("MAC_OS_X_VERSION_10_14_6" variable (:constant-flag t) nil [7150 7174])
+            ("MAC_OS_X_VERSION_10_15" variable (:constant-flag t) nil [7193 7215])
+            ("MAC_OS_X_VERSION_10_15_1" variable (:constant-flag t) nil [7236 7260])
+            ("MAC_OS_X_VERSION_10_16" variable (:constant-flag t) nil [7279 7301])
+            ("MAC_OS_VERSION_11_0" variable (:constant-flag t) nil [7322 7341])
+            ("__DRIVERKIT_19_0" variable (:constant-flag t) nil [7468 7484])
+            ("__DRIVERKIT_20_0" variable (:constant-flag t) nil [7500 7516]))          
+      :file "AvailabilityVersions.h"
+      :pointmax 7565
+      :fsize 7564
+      :lastmodtime '(24656 28653 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__MAC_10_3" . ((number "1030" 1180 . 1184)))
+          ("__IPHONE_2_2" . ((number "20200" 2510 . 2515)))
+          ("__IPHONE_5_1" . ((number "50100" 2798 . 2803)))
+          ("__IPHONE_8_0" . ((number "80000" 2958 . 2963)))
+          ("__IPHONE_12_2" . ((number "120200" 3597 . 3603)))
+          ("__IPHONE_13_6" . ((number "130600" 3885 . 3891)))
+          ("__TVOS_11_0" . ((number "110000" 4451 . 4457)))
+          ("__TVOS_12_4" . ((number "120400" 4739 . 4745)))
+          ("__WATCHOS_1_0" . ((number "10000" 5061 . 5066)))
+          ("__WATCHOS_5_3" . ((number "50300" 5541 . 5546)))
+          ("MAC_OS_X_VERSION_10_2" . ((number "1020" 6062 . 6066)))
+          ("MAC_OS_X_VERSION_10_12_4" . ((number "101204" 6834 . 6840)))
+          ("__MAC_10_4" . ((number "1040" 1215 . 1219)))
+          ("__MAC_10_13_4" . ((number "101304" 1913 . 1919)))
+          ("__IPHONE_8_1" . ((number "80100" 2990 . 2995)))
+          ("__IPHONE_12_3" . ((number "120300" 3629 . 3635)))
+          ("__IPHONE_13_7" . ((number "130700" 3917 . 3923)))
+          ("__TVOS_11_1" . ((number "110100" 4483 . 4489)))
+          ("__TVOS_14_0" . ((number "140000" 4899 . 4905)))
+          ("__WATCHOS_4_0" . ((number "40000" 5317 . 5322)))
+          ("MAC_OS_X_VERSION_10_3" . ((number "1030" 6105 . 6109)))
+          ("MAC_OS_X_VERSION_10_10" . ((number "101000" 6404 . 6410)))
+          ("__AVAILABILITY_VERSIONS__")
+          ("__MAC_10_5" . ((number "1050" 1250 . 1254)))
+          ("__MAC_10_12_1" . ((number "101201" 1703 . 1709)))
+          ("__IPHONE_8_2" . ((number "80200" 3022 . 3027)))
+          ("__IPHONE_11_0" . ((number "110000" 3373 . 3379)))
+          ("__IPHONE_12_4" . ((number "120400" 3661 . 3667)))
+          ("__TVOS_11_2" . ((number "110200" 4515 . 4521)))
+          ("__TVOS_14_1" . ((number "140100" 4931 . 4937)))
+          ("__WATCHOS_4_1" . ((number "40100" 5349 . 5354)))
+          ("__WATCHOS_7_0" . ((number "70000" 5669 . 5674)))
+          ("MAC_OS_X_VERSION_10_4" . ((number "1040" 6148 . 6152)))
+          ("MAC_OS_X_VERSION_10_11" . ((number "101100" 6533 . 6539)))
+          ("MAC_OS_X_VERSION_10_11_2" . ((number "101102" 6576 . 6582)))
+          ("MAC_OS_X_VERSION_10_14_1" . ((number "101401" 7092 . 7098)))
+          ("__MAC_10_6" . ((number "1060" 1285 . 1289)))
+          ("__MAC_10_10" . ((number "101000" 1423 . 1429)))
+          ("__MAC_10_12_2" . ((number "101202" 1738 . 1744)))
+          ("__MAC_10_15_1" . ((number "101501" 2123 . 2129)))
+          ("__IPHONE_4_0" . ((number "40000" 2638 . 2643)))
+          ("__IPHONE_8_3" . ((number "80300" 3054 . 3059)))
+          ("__IPHONE_11_1" . ((number "110100" 3405 . 3411)))
+          ("__IPHONE_14_0" . ((number "140000" 3949 . 3955)))
+          ("__TVOS_11_3" . ((number "110300" 4547 . 4553)))
+          ("__TVOS_14_2" . ((number "140200" 4963 . 4969)))
+          ("__WATCHOS_4_2" . ((number "40200" 5381 . 5386)))
+          ("__WATCHOS_7_1" . ((number "70100" 5701 . 5706)))
+          ("MAC_OS_X_VERSION_10_5" . ((number "1050" 6191 . 6195)))
+          ("MAC_OS_X_VERSION_10_11_3" . ((number "101103" 6619 . 6625)))
+          ("MAC_OS_X_VERSION_10_12" . ((number "101200" 6705 . 6711)))
+          ("__MAC_10_7" . ((number "1070" 1320 . 1324)))
+          ("__MAC_10_11" . ((number "101100" 1528 . 1534)))
+          ("__IPHONE_4_1" . ((number "40100" 2670 . 2675)))
+          ("__IPHONE_7_0" . ((number "70000" 2894 . 2899)))
+          ("__IPHONE_8_4" . ((number "80400" 3086 . 3091)))
+          ("__IPHONE_11_2" . ((number "110200" 3437 . 3443)))
+          ("__IPHONE_14_1" . ((number "140100" 3981 . 3987)))
+          ("__TVOS_9_0" . ((number "90000" 4228 . 4233)))
+          ("__TVOS_10_0" . ((number "100000" 4323 . 4329)))
+          ("__TVOS_11_4" . ((number "110400" 4579 . 4585)))
+          ("__TVOS_14_3" . ((number "140300" 4995 . 5001)))
+          ("__WATCHOS_4_3" . ((number "40300" 5413 . 5418)))
+          ("__WATCHOS_7_2" . ((number "70200" 5733 . 5738)))
+          ("MAC_OS_X_VERSION_10_6" . ((number "1060" 6234 . 6238)))
+          ("MAC_OS_X_VERSION_10_11_4" . ((number "101104" 6662 . 6668)))
+          ("MAC_OS_X_VERSION_10_13" . ((number "101300" 6877 . 6883)))
+          ("__DRIVERKIT_20_0" . ((number "200000" 7517 . 7523)))
+          ("__MAC_10_8" . ((number "1080" 1355 . 1359)))
+          ("__MAC_10_12" . ((number "101200" 1668 . 1674)))
+          ("__MAC_10_12_4" . ((number "101204" 1773 . 1779)))
+          ("__IPHONE_4_2" . ((number "40200" 2702 . 2707)))
+          ("__IPHONE_7_1" . ((number "70100" 2926 . 2931)))
+          ("__IPHONE_11_3" . ((number "110300" 3469 . 3475)))
+          ("__IPHONE_14_2" . ((number "140200" 4013 . 4019)))
+          ("__TVOS_9_1" . ((number "90100" 4260 . 4265)))
+          ("__TVOS_10_1" . ((number "100100" 4387 . 4393)))
+          ("__TVOS_13_0" . ((number "130000" 4771 . 4777)))
+          ("__WATCHOS_3_0" . ((number "30000" 5189 . 5194)))
+          ("__WATCHOS_7_3" . ((number "70300" 5765 . 5770)))
+          ("MAC_OS_X_VERSION_10_7" . ((number "1070" 6277 . 6281)))
+          ("MAC_OS_X_VERSION_10_14" . ((number "101400" 7049 . 7055)))
+          ("MAC_OS_X_VERSION_10_14_4" . ((number "101404" 7135 . 7141)))
+          ("MAC_OS_VERSION_11_0" . ((number "110000" 7350 . 7356)))
+          ("__MAC_10_9" . ((number "1090" 1390 . 1394)))
+          ("__MAC_10_13" . ((number "101300" 1808 . 1814)))
+          ("__MAC_10_15_4" . ((number "101504" 2158 . 2164)))
+          ("__MAC_11_0" . ((number "110000" 2228 . 2234)))
+          ("__IPHONE_4_3" . ((number "40300" 2734 . 2739)))
+          ("__IPHONE_10_0" . ((number "100000" 3245 . 3251)))
+          ("__IPHONE_11_4" . ((number "110400" 3501 . 3507)))
+          ("__IPHONE_14_3" . ((number "140300" 4045 . 4051)))
+          ("__TVOS_9_2" . ((number "90200" 4292 . 4297)))
+          ("__TVOS_10_0_1" . ((number "100001" 4355 . 4361)))
+          ("__TVOS_10_2" . ((number "100200" 4419 . 4425)))
+          ("__TVOS_14_5" . ((number "140500" 5027 . 5033)))
+          ("__WATCHOS_3_1" . ((number "30100" 5221 . 5226)))
+          ("__WATCHOS_6_0" . ((number "60000" 5573 . 5578)))
+          ("__WATCHOS_7_4" . ((number "70400" 5797 . 5802)))
+          ("MAC_OS_X_VERSION_10_8" . ((number "1080" 6320 . 6324)))
+          ("MAC_OS_X_VERSION_10_10_2" . ((number "101002" 6447 . 6453)))
+          ("MAC_OS_X_VERSION_10_13_1" . ((number "101301" 6920 . 6926)))
+          ("MAC_OS_X_VERSION_10_15" . ((number "101500" 7221 . 7227)))
+          ("__DRIVERKIT_19_0" . ((number "190000" 7485 . 7491)))
+          ("__MAC_10_11_2" . ((number "101102" 1563 . 1569)))
+          ("__MAC_10_14" . ((number "101400" 1948 . 1954)))
+          ("__MAC_10_14_1" . ((number "101401" 1983 . 1989)))
+          ("__MAC_11_1" . ((number "110100" 2263 . 2269)))
+          ("__IPHONE_3_0" . ((number "30000" 2542 . 2547)))
+          ("__IPHONE_10_1" . ((number "100100" 3277 . 3283)))
+          ("__IPHONE_13_0" . ((number "130000" 3693 . 3699)))
+          ("__TVOS_13_2" . ((number "130200" 4803 . 4809)))
+          ("__WATCHOS_3_2" . ((number "30200" 5285 . 5290)))
+          ("__WATCHOS_6_1" . ((number "60100" 5605 . 5610)))
+          ("MAC_OS_X_VERSION_10_9" . ((number "1090" 6363 . 6367)))
+          ("MAC_OS_X_VERSION_10_10_3" . ((number "101003" 6490 . 6496)))
+          ("MAC_OS_X_VERSION_10_13_2" . ((number "101302" 6963 . 6969)))
+          ("MAC_OS_X_VERSION_10_14_6" . ((number "101406" 7178 . 7184)))
+          ("MAC_OS_X_VERSION_10_16" . ((number "101600" 7307 . 7313)))
+          ("__MAC_10_11_3" . ((number "101103" 1598 . 1604)))
+          ("__MAC_10_15" . ((number "101500" 2088 . 2094)))
+          ("__IPHONE_3_1" . ((number "30100" 2574 . 2579)))
+          ("__IPHONE_6_0" . ((number "60000" 2830 . 2835)))
+          ("__IPHONE_10_2" . ((number "100200" 3309 . 3315)))
+          ("__IPHONE_13_1" . ((number "130100" 3725 . 3731)))
+          ("__IPHONE_14_5" . ((number "140500" 4077 . 4083)))
+          ("__TVOS_13_3" . ((number "130300" 4835 . 4841)))
+          ("__WATCHOS_6_2" . ((number "60200" 5637 . 5642)))
+          ("__MAC_10_11_4" . ((number "101104" 1633 . 1639)))
+          ("__MAC_10_16" . ((number "101600" 2193 . 2199)))
+          ("__MAC_11_3" . ((number "110300" 2298 . 2304)))
+          ("__IPHONE_3_2" . ((number "30200" 2606 . 2611)))
+          ("__IPHONE_6_1" . ((number "60100" 2862 . 2867)))
+          ("__IPHONE_9_0" . ((number "90000" 3118 . 3123)))
+          ("__IPHONE_10_3" . ((number "100300" 3341 . 3347)))
+          ("__IPHONE_13_2" . ((number "130200" 3757 . 3763)))
+          ("__TVOS_12_0" . ((number "120000" 4611 . 4617)))
+          ("__TVOS_13_4" . ((number "130400" 4867 . 4873)))
+          ("__WATCHOS_2_0" . ((number "20000" 5093 . 5098)))
+          ("MAC_OS_X_VERSION_10_13_4" . ((number "101304" 7006 . 7012)))
+          ("__MAC_10_0" . ((number "1000" 1075 . 1079)))
+          ("__MAC_10_14_4" . ((number "101404" 2018 . 2024)))
+          ("__IPHONE_9_1" . ((number "90100" 3150 . 3155)))
+          ("__IPHONE_13_3" . ((number "130300" 3789 . 3795)))
+          ("__TVOS_12_1" . ((number "120100" 4643 . 4649)))
+          ("__WATCHOS_2_1" . ((number "20100" 5125 . 5130)))
+          ("__WATCHOS_5_0" . ((number "50000" 5445 . 5450)))
+          ("MAC_OS_X_VERSION_10_12_1" . ((number "101201" 6748 . 6754)))
+          ("__MAC_10_1" . ((number "1010" 1110 . 1114)))
+          ("__MAC_10_10_2" . ((number "101002" 1458 . 1464)))
+          ("__MAC_10_13_1" . ((number "101301" 1843 . 1849)))
+          ("__IPHONE_2_0" . ((number "20000" 2446 . 2451)))
+          ("__IPHONE_9_2" . ((number "90200" 3182 . 3187)))
+          ("__IPHONE_12_0" . ((number "120000" 3533 . 3539)))
+          ("__IPHONE_13_4" . ((number "130400" 3821 . 3827)))
+          ("__TVOS_12_2" . ((number "120200" 4675 . 4681)))
+          ("__WATCHOS_2_2" . ((number "20200" 5157 . 5162)))
+          ("__WATCHOS_3_1_1" . ((number "30101" 5253 . 5258)))
+          ("__WATCHOS_5_1" . ((number "50100" 5477 . 5482)))
+          ("MAC_OS_X_VERSION_10_0" . ((number "1000" 5976 . 5980)))
+          ("MAC_OS_X_VERSION_10_12_2" . ((number "101202" 6791 . 6797)))
+          ("MAC_OS_X_VERSION_10_15_1" . ((number "101501" 7264 . 7270)))
+          ("__MAC_10_2" . ((number "1020" 1145 . 1149)))
+          ("__MAC_10_10_3" . ((number "101003" 1493 . 1499)))
+          ("__MAC_10_13_2" . ((number "101302" 1878 . 1884)))
+          ("__MAC_10_14_6" . ((number "101406" 2053 . 2059)))
+          ("__IPHONE_2_1" . ((number "20100" 2478 . 2483)))
+          ("__IPHONE_5_0" . ((number "50000" 2766 . 2771)))
+          ("__IPHONE_9_3" . ((number "90300" 3214 . 3219)))
+          ("__IPHONE_12_1" . ((number "120100" 3565 . 3571)))
+          ("__IPHONE_13_5" . ((number "130500" 3853 . 3859)))
+          ("__TVOS_12_3" . ((number "120300" 4707 . 4713)))
+          ("__WATCHOS_5_2" . ((number "50200" 5509 . 5514)))
+          ("MAC_OS_X_VERSION_10_1" . ((number "1010" 6019 . 6023)))
+          )
+)
+    (semanticdb-table "semanticdb-table-4a40a086"
+      :major-mode c-mode
+      :tags 
+        '( ("__AVAILABILITY_INTERNAL__" variable (:constant-flag t) nil [1159 1184])
+            ("__MAC_OS_X_VERSION_MIN_REQUIRED" variable (:constant-flag t) nil [1488 1519])
+            ("__MAC_OS_X_VERSION_MAX_ALLOWED" variable (:constant-flag t) nil [3950 3980])
+            ("__AVAILABILITY_INTERNAL_DEPRECATED" variable (:constant-flag t) nil [4494 4528])
+            ("__AVAILABILITY_INTERNAL_DEPRECATED_MSG" variable (:constant-flag t) nil [4768 4806])
+            ("__AVAILABILITY_INTERNAL_DEPRECATED_MSG" variable (:constant-flag t) nil [5054 5092])
+            ("__AVAILABILITY_INTERNAL_UNAVAILABLE" variable (:constant-flag t) nil [5143 5178])
+            ("__AVAILABILITY_INTERNAL_WEAK_IMPORT" variable (:constant-flag t) nil [5226 5261])
+            ("__AVAILABILITY_INTERNAL_REGULAR" variable (:constant-flag t) nil [5309 5340])
+            ("__ENABLE_LEGACY_MAC_AVAILABILITY" variable (:constant-flag t) nil [6592 6624])
+            ("__API_AVAILABLE_GET_MACRO" variable (:constant-flag t) nil [430229 430254])
+            ("__API_AVAILABLE_BEGIN_GET_MACRO" variable (:constant-flag t) nil [430270 430301])
+            ("__API_DEPRECATED_MSG_GET_MACRO" variable (:constant-flag t) nil [430317 430347])
+            ("__API_DEPRECATED_REP_GET_MACRO" variable (:constant-flag t) nil [430363 430393])
+            ("__API_DEPRECATED_BEGIN_MSG_GET_MACRO" variable (:constant-flag t) nil [430409 430445])
+            ("__API_DEPRECATED_BEGIN_REP_GET_MACRO" variable (:constant-flag t) nil [430461 430497])
+            ("__API_UNAVAILABLE_GET_MACRO" variable (:constant-flag t) nil [430508 430535])
+            ("__API_UNAVAILABLE_BEGIN_GET_MACRO" variable (:constant-flag t) nil [430551 430584])
+            ("__swift_compiler_version_at_least" variable (:constant-flag t) nil [431880 431913])
+            ("__SPI_AVAILABLE" variable (:constant-flag t) nil [432038 432053]))          
+      :file "AvailabilityInternal.h"
+      :pointmax 432106
+      :fsize 432105
+      :lastmodtime '(24656 47130 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__AVAILABILITY_INTERNAL_REGULAR")
+          ("__ENABLE_LEGACY_MAC_AVAILABILITY" . ((number "1" 6625 . 6626)))
+          ("__API_AVAILABLE_GET_MACRO" (spp-arg-list ("...") 430254 . 430259))
+          ("__SPI_AVAILABLE" (spp-arg-list ("...") 432053 . 432058))
+          ("__MAC_OS_X_VERSION_MIN_REQUIRED" . ((symbol "__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__" 1520 . 1565)))
+          ("__AVAILABILITY_INTERNAL_DEPRECATED" . ((symbol "__attribute__" 4540 . 4553) (semantic-list "((deprecated))" 4553 . 4567)))
+          ("__AVAILABILITY_INTERNAL_DEPRECATED_MSG" (spp-arg-list ("_msg") 5092 . 5098) . ((symbol "__attribute__" 5100 . 5113) (semantic-list "((deprecated))" 5113 . 5127)))
+          ("__AVAILABILITY_INTERNAL_WEAK_IMPORT" . ((symbol "__attribute__" 5272 . 5285) (semantic-list "((weak_import))" 5285 . 5300)))
+          ("__API_DEPRECATED_BEGIN_REP_GET_MACRO")
+          ("__API_UNAVAILABLE_BEGIN_GET_MACRO" (spp-arg-list ("...") 430584 . 430589))
+          ("__API_AVAILABLE_BEGIN_GET_MACRO" (spp-arg-list ("...") 430301 . 430306))
+          ("__API_DEPRECATED_REP_GET_MACRO" (spp-arg-list ("...") 430393 . 430398))
+          ("__API_UNAVAILABLE_GET_MACRO" (spp-arg-list ("...") 430535 . 430540))
+          ("__swift_compiler_version_at_least" (spp-arg-list ("...") 431913 . 431918) . ((number "1" 431919 . 431920)))
+          ("__MAC_OS_X_VERSION_MAX_ALLOWED" . ((symbol "__MAC_11_3" 3981 . 3991)))
+          ("__API_DEPRECATED_BEGIN_MSG_GET_MACRO" (spp-arg-list ("...") 430445 . 430450))
+          ("__API_DEPRECATED_MSG_GET_MACRO" (spp-arg-list ("...") 430347 . 430352))
+          ("__AVAILABILITY_INTERNAL__")
+          ("__AVAILABILITY_INTERNAL_UNAVAILABLE" . ((symbol "__attribute__" 5189 . 5202) (semantic-list "((unavailable))" 5202 . 5217)))
+          )
+)
+    (semanticdb-table "semanticdb-table-468848d0"
+      :major-mode c-mode
+      :tags 
+        '( ("__LOCALE_H_" variable (:constant-flag t) nil [1988 1999])
+            ("sys/cdefs.h" include (:system-flag t) nil [2001 2023])
+            ("_types.h" include (:system-flag t) nil [2024 2043])
+            ("lconv" type
+               (:members 
+                  ( ("decimal_point" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2061 2081])
+                    ("thousands_sep" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2083 2103])
+                    ("grouping" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2105 2120])
+                    ("int_curr_symbol" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2122 2144])
+                    ("currency_symbol" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2146 2168])
+                    ("mon_decimal_point" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2170 2194])
+                    ("mon_thousands_sep" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2196 2220])
+                    ("mon_grouping" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2222 2241])
+                    ("positive_sign" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2243 2263])
+                    ("negative_sign" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2265 2285])
+                    ("int_frac_digits" variable (:type "char") (reparse-symbol classsubparts) [2287 2308])
+                    ("frac_digits" variable (:type "char") (reparse-symbol classsubparts) [2310 2327])
+                    ("p_cs_precedes" variable (:type "char") (reparse-symbol classsubparts) [2329 2348])
+                    ("p_sep_by_space" variable (:type "char") (reparse-symbol classsubparts) [2350 2370])
+                    ("n_cs_precedes" variable (:type "char") (reparse-symbol classsubparts) [2372 2391])
+                    ("n_sep_by_space" variable (:type "char") (reparse-symbol classsubparts) [2393 2413])
+                    ("p_sign_posn" variable (:type "char") (reparse-symbol classsubparts) [2415 2432])
+                    ("n_sign_posn" variable (:type "char") (reparse-symbol classsubparts) [2434 2451])
+                    ("int_p_cs_precedes" variable (:type "char") (reparse-symbol classsubparts) [2453 2476])
+                    ("int_n_cs_precedes" variable (:type "char") (reparse-symbol classsubparts) [2478 2501])
+                    ("int_p_sep_by_space" variable (:type "char") (reparse-symbol classsubparts) [2503 2527])
+                    ("int_n_sep_by_space" variable (:type "char") (reparse-symbol classsubparts) [2529 2553])
+                    ("int_p_sign_posn" variable (:type "char") (reparse-symbol classsubparts) [2555 2576])
+                    ("int_n_sign_posn" variable (:type "char") (reparse-symbol classsubparts) [2578 2599]))                  
+                :type "struct")
+                nil [2045 2602])
+            ("sys/_types/_null.h" include (:system-flag t) nil [2604 2633])
+            ("localeconv" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("lconv" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2674 2679]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2649 2680]))          
+      :file "_locale.h"
+      :pointmax 2719
+      :fsize 2718
+      :lastmodtime '(24656 28653 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__LOCALE_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-4e537204"
+      :major-mode c-mode
+      :tags 
+        '( ("__XLOCALE_H_" variable (:constant-flag t) nil [1010 1022])
+            ("sys/cdefs.h" include (:system-flag t) nil [1024 1046])
+            ("_xlocale" type
+               (:prototype t
+                :type "struct")
+                nil [1048 1064])
+            ("locale_t" type
+               (:typedef ("_xlocale" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :pointer 1
+                :type "typedef")
+                nil [1089 1125])
+            ("___mb_cur_max_l" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1188 1197]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1167 1198])
+            ("___mb_cur_max" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1160 1165]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1141 1166]))          
+      :file "_xlocale.h"
+      :pointmax 1238
+      :fsize 1237
+      :lastmodtime '(24656 28653 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__XLOCALE_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-4e68ffc8"
+      :major-mode c-mode
+      :tags 
+        '( ("sys/cdefs.h" include (:system-flag t) nil [2251 2273])
+            ("stdlib.h" include (:system-flag t) nil [2293 2312])
+            ("__assert_rtn" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2972 2985])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2986 2999])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [3000 3004])
+                    ("" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3005 3018]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2954 3055])
+            ("__assert" variable (:constant-flag t) nil [3584 3592])
+            ("assert" variable (:constant-flag t) nil [3698 3704])
+            ("_ASSERT_H_" variable (:constant-flag t) nil [4029 4039]))          
+      :file "assert.h"
+      :pointmax 4240
+      :fsize 4239
+      :lastmodtime '(24656 28653 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("assert" (spp-arg-list ("e") 3704 . 3707) . ((semantic-list "(__builtin_expect(!(e), 0) ? __assert_rtn(__func__, __FILE__, __LINE__, #e) : (void)0)" 3714 . 3800)))
+          ("_ASSERT_H_")
+          ("__assert" (spp-arg-list ("e" "file" "line") 3592 . 3607) . ((symbol "__assert_rtn" 3614 . 3626) (semantic-list "((const char *)-1L, file, line, e)" 3627 . 3661)))
+          )
+)
+    (semanticdb-table "semanticdb-table-46864af4"
+      :major-mode c-mode
+      :tags 
+        '( ("__TYPES_H_" variable (:constant-flag t) nil [1010 1020])
+            ("sys/_types.h" include (:system-flag t) nil [1022 1045])
+            ("machine/_types.h" include (:system-flag t) nil [1046 1073])
+            ("__strfmonlike" variable (:constant-flag t) nil [1157 1170])
+            ("__strftimelike" variable (:constant-flag t) nil [1267 1281])
+            ("__darwin_nl_item" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1436 1466])
+            ("__darwin_wctrans_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1467 1499])
+            ("__darwin_wctype_t" type
+               (:typedef ("__uint32_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1516 1553])
+            ("__DARWIN_WCHAR_MAX" variable (:constant-flag t) nil [1669 1687])
+            ("__DARWIN_WCHAR_MIN" variable (:constant-flag t) nil [1888 1906])
+            ("__DARWIN_WEOF" variable (:constant-flag t) nil [1924 1937])
+            ("_FORTIFY_SOURCE" variable (:constant-flag t) nil [2159 2174]))          
+      :file "_types.h"
+      :pointmax 2238
+      :fsize 2237
+      :lastmodtime '(24656 28653 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__strfmonlike" (spp-arg-list ("fmtarg" "firstvararg") 1170 . 1191) . ((symbol "__attribute__" 1196 . 1209) (semantic-list "((__format__ (__strfmon__, fmtarg, firstvararg)))" 1209 . 1258)))
+          ("__strftimelike" (spp-arg-list ("fmtarg") 1281 . 1289) . ((symbol "__attribute__" 1294 . 1307) (semantic-list "((__format__ (__strftime__, fmtarg, 0)))" 1307 . 1347)))
+          ("__DARWIN_WEOF" . ((semantic-list "((__darwin_wint_t)-1)" 1939 . 1960)))
+          ("__TYPES_H_")
+          ("__DARWIN_WCHAR_MAX" . ((symbol "__WCHAR_MAX__" 1688 . 1701)))
+          ("_FORTIFY_SOURCE" . ((number "2" 2175 . 2176)))
+          ("__DARWIN_WCHAR_MIN" . ((number "0" 1907 . 1908)))
+          )
+)
+    (semanticdb-table "semanticdb-table-4e517d04"
+      :file "stdlib.h"
+      :fsize 14730
+      :lastmodtime '(24656 47117 0 0)))
+  :file "!Library!Developer!CommandLineTools!SDKs!MacOSX11.3.sdk!usr!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
