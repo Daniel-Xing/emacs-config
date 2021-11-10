@@ -1,1 +1,1 @@
-("~/CLionProjects/learningCPP/" "~/emacs-c-ide-demo/")
+("~/.emacs.d/" "~/anaconda3/lib/python3.8/site-packages/numpy/")

@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file-158f3bb11764
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158f3bb11764"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158f3bb1b060"
+      :major-mode python-mode
+      :tags 
+        '( ("numpy" include nil nil [1 19])
+            ("print" code nil nil [21 34])
+            ("Test" function (:arguments 
+              ( ("a" variable nil (reparse-symbol function_parameters) [45 46]))              ) nil [36 77])
+            ("if" code nil nil [79 123]))          
+      :file "input.py"
+      :pointmax 123
+      :fsize 107
+      :lastmodtime '(24971 61167 624609 981000)
+      :unmatched-syntax nil))
+  :file "!home!xingzheng!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

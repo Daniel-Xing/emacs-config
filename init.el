@@ -43,6 +43,9 @@
 (require 'setup-cedet)
 (require 'setup-editing)
 
+;;
+(add-hook 'python-mode-hook 'anaconda-mode)
+
 ;;自动补全括号
 (electric-pair-mode t)
 
@@ -237,7 +240,7 @@
  '(org-agenda-files
    '("~/schedule/2020/07/2020-07-11.org" "~/schedule/2020/06/2020-06-05.org" "~/schedule/2020/06/2020-06-04.org" "~/schedule/2020/06/2020-06-03.org" "~/schedule/2020/06/2020-06-02.org"))
  '(package-selected-packages
-   '(calendar-norway windresize windsize company-c-headers function-args sr-speedbar go-fill-struct go-errcheck go-complete go-autocomplete go go-imports go-rename neotree monokai-theme spacemacs-theme zenburn-theme go-imenu go-playground hc-zenburn-theme autopair magit helm-swoop elpy window-numbering undo-tree helm))
+   '(anaconda-mode calendar-norway windresize windsize company-c-headers function-args sr-speedbar go-fill-struct go-errcheck go-complete go-autocomplete go go-imports go-rename neotree monokai-theme spacemacs-theme zenburn-theme go-imenu go-playground hc-zenburn-theme autopair magit helm-swoop elpy window-numbering undo-tree helm))
  '(safe-local-variable-values
    '((company-clang-arguments "-I/usr/lib64/mpi/gcc/openmpi/include/" "-I/home/xingzheng/mpi-exp/perf/" "-I/usr/include/" "-I/usr/local/include/")
      (company-clang-arguments "-I/usr/lib64/mpi/gcc/openmpi/include/" "-I/home/xingzheng/mpi-exp/perf/" "-I/usr/include/")
